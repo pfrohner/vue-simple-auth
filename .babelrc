@@ -1,0 +1,13 @@
+{
+  "comments": false,
+  "env": {
+    "development": {
+      "presets": [
+        "@vue/app"
+      ]
+    },
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}
