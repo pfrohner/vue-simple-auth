@@ -2,7 +2,7 @@
   <form v-on:submit.prevent="onSubmit" ref="form">
     <h2 class="text-center">Login</h2>
     <fieldset class="form-group">
-      <label for="email">Email address</label>
+      <label for="email">Email:</label>
       <input type="email" id="email" name="email" class="form-control" placeholder="Enter email"
               v-model="email"
               v-validate="'required|email'"
@@ -12,7 +12,7 @@
       </small>
     </fieldset>
     <fieldset class="form-group" >
-      <label for="password">Password</label>
+      <label for="password">Password:</label>
       <input type="password" id="password" name="password" class="form-control" placeholder="Password"
               v-model="password"
               v-validate="'required'"
